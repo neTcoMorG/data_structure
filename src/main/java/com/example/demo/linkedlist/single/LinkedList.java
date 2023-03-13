@@ -1,9 +1,9 @@
-package com.example.demo.linkedlist;
+package com.example.demo.linkedlist.single;
 
 public class LinkedList {
 
-    private Node head, tail;
-    private int size;
+    protected Node head, tail;
+    protected int size;
 
     public LinkedList () {
         this.head = null;
@@ -96,7 +96,7 @@ public class LinkedList {
         this.size--;
     }
 
-    private boolean isOverFlow(int index) {
+    private boolean isOverFlow (int index) {
         if (index > size - 1) {
             return true;
         }

@@ -1,4 +1,4 @@
-package com.example.demo.linkedlist;
+package com.example.demo.linkedlist.single;
 
 public class Node {
     private Object data;

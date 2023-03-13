@@ -1,5 +1,6 @@
 package com.example.demo.linkedlist;
 
+import com.example.demo.linkedlist.single.LinkedList;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
