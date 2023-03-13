@@ -89,9 +89,7 @@ class LinkedListTest {
         linkedList.add(1, 5);
 
         int[] arr = linkedList.toArray();
-        for (int i : arr) {
-            System.out.printf(i + " ");
-        }
+        assertArrayEquals(new int[]{1, 5, 2, 3}, arr);
     }
 
     @Test
